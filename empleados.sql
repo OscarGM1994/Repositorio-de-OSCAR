@@ -86,7 +86,8 @@ select nombre, presupuesto from departamento where presupuesto = (select max(pre
 select count(id) from empleado;
 select count(id) from empleado where apellido2 is not null; 
 select count(id) from empleado where id_departamento = 1;
-select count(id) from empleado where presupuesto > 200000;
+select count(id) from empleado where presupuesto > 200000; -- Esto no esta bien
+
 
 
 
